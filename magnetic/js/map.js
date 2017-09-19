@@ -1,14 +1,14 @@
 jQuery(function($){
 
-	var longitude = 45.124099;
-	var latitude = -123.113634;
+	var longitude = 45.762433;
+	var latitude = 3.109044;
 	var canvas = "map";
 
 	
 	function randing_map(canvas, lan, lat){			
 			var myLatlng = new google.maps.LatLng(lan,lat);
 			var myOptions = {
-						zoom: 13,
+						zoom: 16,
 						center: myLatlng,
 						mapTypeId: google.maps.MapTypeId.ROADMAP,
 						maxZoom   : 20,
