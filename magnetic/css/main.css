@@ -82,6 +82,11 @@ header nav ul li a{
     -o-transition:all .1s linear;
 }
 
+#img_logo{
+	width: 60%;
+	margin-left: -5px;
+}
+
 h1, h2, h3, h4, h5 ,h6{
     color: #4b4848;
     font-family: "raleway-regular", arial;
